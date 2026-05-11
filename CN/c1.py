@@ -42,6 +42,6 @@ mediaF = sum(medias)/len(medias)
 if mediaF >= 7:
     print(f"\nSua nota final foi de {mediaF} pontos, você está passado")
 elif mediaF<7:
-    print(f"\nSua nota final foi de {mediaF} pontos, você está de recuperação")
+    print(f"\nSua nota final foi de {mediaF} pontos, você está de recuperação, necessitando de {restante} pontos")
         
         
