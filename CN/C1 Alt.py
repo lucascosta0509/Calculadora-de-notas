@@ -25,8 +25,8 @@ try:
     for i in range(1,nA+1):
         pegar_dados(i)
     valores_chave = ['nomes','status']
-    for dado in valores_chave:
-        print(dados.get('dados'))
+    for nome, status in zip(dados['nomes'], dados['status']):
+        print(f"Aluno: {nome} | Status: {status}")
 except (ValueError, NameError):
      print("Digite valores válidos, reinicie o programa")  
 
